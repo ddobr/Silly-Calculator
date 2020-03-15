@@ -39,7 +39,7 @@ namespace CodeRetreat
 
             //Здесь могут быть Ваши операторы)
             //Для унарных операторов - приоритет -1
-            //Не разобрался как быть с левоассоциативными, в парсере костыли из-за этого
+            //Не разобрался как быть с правоассоциативными, в парсере костыли из-за этого
 
             Dictionary.Add("sin", new Operation("sin", 1, operands => Math.Sin(operands[0]), -1));
             Dictionary.Add("cos", new Operation("cos", 1, operands => Math.Cos(operands[0]), -1));
